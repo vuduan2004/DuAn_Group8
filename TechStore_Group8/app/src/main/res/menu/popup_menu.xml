@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-
         <item
             android:id="@+id/it_lonNhat"
             android:layout_width="wrap_content"
@@ -9,7 +8,6 @@
             android:textSize="17dp"
             android:layout_marginBottom="5dp"
             android:title="Giá lớn nhất" />
-
         <item
             android:id="@+id/it_nhoNhat"
             android:layout_width="wrap_content"

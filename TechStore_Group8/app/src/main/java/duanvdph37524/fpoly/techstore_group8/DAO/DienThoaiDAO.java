@@ -6,15 +6,14 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import java.util.ArrayList;
-
-import duanvdph37524.fpoly.techstore_group8.Database.DbHelper;
+import  duanvdph37524.fpoly.techstore_group8.database.DBHelper;
 import duanvdph37524.fpoly.techstore_group8.Model.DienThoai;
 
 public class DienThoaiDAO {
     private SQLiteDatabase database;
 
     public DienThoaiDAO(Context context) {
-        DbHelper dbHelper = new DbHelper(context);
+       DBHelper dbHelper = new DBHelper(context);
         database = dbHelper.getReadableDatabase();
     }
 
